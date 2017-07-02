@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 0.36rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+header{
+    width: 6.4rem;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    text-align: center;
+    position: relative;
+    border-bottom: 0.01rem solid #c4c4c4;
+}
+header span{
+    line-height: 1rem;
+}
+header .shuaxin{
+    width: 0.5rem;
+    height: 0.42rem;
+    position: absolute;
+    left: 0.43rem;
+    top: 0.23rem;
+}
+header .sousuo{
+    width: 0.49rem;
+    height: 0.42rem;
+    position: absolute;
+    right: 0.51rem;
+    top: 0.23rem;
+}
+
+
+/*nav*/
+nav{
+    width: 6.4rem;
+    margin: 0 auto;
+}
+nav>ul{
+    width: 6.4rem;
+    margin: 0 auto;
+}
+nav>ul>li{
+    float: left;
+    width: 2.12rem;
+    border-right: 0.01rem solid #c4c4c4;
+}
+nav>ul>li:last-child{
+    border: 0;
+}
+nav>ul>li>a{
+    display: block;
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.88rem;
+    color: black;
+    position: relative;
+}
+nav>ul>li:first-child>a{
+    background-color: #e3e3e3;
+}
+nav>ul>li:last-child{
+    position: relative;
+}
+nav>ul>li>a>img{
+    width: 0.14rem;
+    height: 0.14rem;
+    position: absolute;
+    right: 0.03rem;
+    bottom: 0.05rem;
+}
+nav .erji{
+    width: 2.34rem;
+    position: absolute;
+    right: 0rem;
+    display: none;
+    z-index: 99;
+}
+nav .erji li{
+    width: 2.34rem;
+    height: 0.48rem;
+    border: 0.01rem solid #5d5356;
+    background-color: black;
+    position: relative;
+}
+nav .erji li>a{
+    display: block;
+    color: white;
+    line-height: 0.48rem;
+    margin-left: 0.32rem;
+    font-size: 0.26rem;
+}
+nav .erji li img{
+    width: 0.39rem;
+    height: 0.47rem;
+    position: absolute;
+    right: 0.32rem;
+    top: 0;
+}
+
+/*Lunbo*/
+.banner{
+    width: 6.4rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.banner .pic{
+    width: 25.6rem;
+    height: 3rem;
+    transition:all 0.5s linear;
+}
+.banner .pic img{
+    width: 6.4rem;
+    height: 3rem;
+}
+.banner .pic li{
+    float: left;
+    width: 6.4rem;
+    height: 3rem;
+}
+.banner .dian{
+    width: 0.64rem;
+    height: 0.12rem;
+    position: absolute;
+    left: 0.03rem;
+    bottom: 0.11rem;
+}
+.banner .dian li{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background-color: #999999;
+    margin-right: 0.04rem;
+    float: left;
+}
+.banner .dian .juse{
+    background-color: #ff4400;
+}
+
+main{
+    width: 6.4rem;
+    margin: 0 auto;
+    background-color: #eae8e8;
+}
+section:first-child{
+    width: 100%;
+}
+section:first-child ul{
+    background-color: white;
+    height: 2.06rem;
+    padding: 0 0.25rem;
+}
+section:first-child ul li{
+    float: left;
+    text-align: center;
+    margin-right: 0.69rem;
+}
+section:first-child ul li img{
+    width: 0.95rem;
+    height: 0.95rem;
+    margin: 0.23rem 0 0.16rem 0;
+}
+section:first-child ul li p{
+    font-size: 0.24rem;
+    margin-bottom: 0.28rem;
+}
+section:first-child ul .pt{
+    margin: 0;
+}
+
+section:nth-child(2){
+    width: 100%;
+    margin: 0 auto;
+}
+section:nth-child(2) ul{
+    background-color: white;
+    width: 6.32rem;
+    height: 1.78rem;
+    padding: 0.08rem 0.08rem 0.08rem 0;
+    margin-top: 0.08rem;
+}
+section:nth-child(2) ul li{
+    float: left;
+    width: 3.08rem;
+    height: 1.78rem;
+    margin-left: 0.08rem;
+    position: relative;
+}
+section:nth-child(2) ul li img{
+    width: 3.08rem;
+    height: 1.78rem;
+}
+section:nth-child(2) ul li .box1{
+    width: 1.79rem;
+    height: 0.66rem;
+    border: 0.02rem solid white;
+    position: absolute;
+    top: 0.48rem;
+    left: 0.72rem;
+}
+section:nth-child(2) ul li .box2{
+    width: 1.72rem;
+    height: 0.58rem;
+    position: absolute;
+    top: 0.54rem;
+    left: 0.78rem;
+    text-align: center;
+    background-color: white;
+}
+section:nth-child(2) ul li a{
+    font-size: 0.3rem;
+    color: #0b9e54;
+    line-height: 0.58rem;
+}
